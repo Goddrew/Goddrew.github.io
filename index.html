@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
     <title>Andrew Chiang</title>
 </head>
 <body>
-    <div class="box1">Begg</div>
-    <div class="box2">Mid</div>
+    <div id="particles-js">
+        <div class="btext">
+            <h1>Hello, I'm <span style="color: rgb(214, 28, 104);">Andrew Chiang</span>.</h1>   
+            <a href="#about-me" class="button">View my work</a> 
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/particles.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.json loaded');
+        });
+    </script>
+    <div id="about-me" class="box2">Mid</div>
     <div class="box3">End</div>
 </body>
 </html>
