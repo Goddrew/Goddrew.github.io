@@ -14,7 +14,7 @@ html {
     position: absolute;
     top: 40%;
     border: 1px black;
-    animation: appear 5s;
+    animation: appear 3.7s;
 }
 
 .button {
