@@ -4,10 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Andrew Chiang</title>
 </head>
 <body>
-    Some Cool Website :) 
-    Test1
+    <div class="container-outer-1">
+        <div class="container-outer-2">
+            <table class="personal">
+                <tr>
+                    <th>
+                        <div>
+                            <br>
+                            <h1>Andrew Chiang</h1>
+                            <p class="location">Taipei &#x2022; Bay Area</p>
+                            <p class="email">achiang [at] scu [dot] edu</p>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="bio">
+                        <div class="bio-summary">I  am a fourth year undergradaute at Santa Clara University. I am interested in reinforcement learning, in particular multi-agent RL, deep RL, and imitation learning.
+                        </div>
+                    </td>
+                    <td rowspan="2" class="photo">
+                        <div>
+                            <img src="./img/pic.jpg" alt="picture" id="selfie">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><a href="./bio.txt">Bio</a> / <a href="https://github.com/Goddrew">GitHub</a> / <a href="https://www.linkedin.com/in/andrew-chiang-073a811a1">LinkedIn</a></p>
+                        
+                    </td>
+                </tr>
+            </table>
+            <div class="info">
+                <div class="projects"> 
+                    <h2 class="project">Projects</h2>
+                    <table> 
+                        <tr>
+                            <td class="pro project-img">
+                                <img class="p-img" src="./img/landscape.jpg" alt="landscape">
+                            </td>
+                            <td class="project-info">
+                                <h3><a href="#">Landscape DCGANs</a></h3>
+                                <p>Generative model for landscape pictures</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pro project-img">
+                                <img class="p-img" src="./img/smile.jpg" alt="smile">
+                            </td>
+                            <td class="project-info">
+                                <h3><a href="#">Emotion Detection</a></h3>
+                                <p>Detect emotions real time based on facial expressions</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="pro project-img">
+                                <img class="p-img" src="./img/pathfinding.png" alt="path">
+                            </td>
+                            <td class="project-info">
+                                <h3><a href="#">Pathfinding Visualizer</a></h3>
+                                <p>Visualize different pathfinding algorithms</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

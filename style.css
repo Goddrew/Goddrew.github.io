@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  padding: 0px; 
+  margin: 0px;
+}
+
+.container-outer-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td {
+  padding: 5px;
+  margin: 0px;
+}
+
+.location {
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.email {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.personal {
+  width: 750px;
+}
+
+#selfie {
+  width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.info {
+  margin-top: 40px;
+  width: 750px;
+}
+
+.p-img {
+  width: 60px;
+  height: 60px;
+}
+
+.project {
+  color: rgb(255, 118, 143);
+}
+
